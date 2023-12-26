@@ -1,0 +1,263 @@
+@media (max-width: 1900px) {
+    .sec7-photo img:nth-child(4) {
+        display: none;
+    }
+
+    .footer-center .left {
+        display: none;
+    }
+
+    .footer-center .footer-links {
+        width: 100%;
+    }
+
+    .footer-up {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer-up p {
+        width: auto;
+        margin-top: 100px;
+    }
+}
+
+@media(max-width: 1500px) {
+    .menu-list {
+        font-size: 24px;
+    }
+
+    .sec6-info {
+        padding-left: 9.11vw;
+        padding-right: 9.11vw;
+    }
+}
+
+@media (max-width: 1280px) {
+    .burg {
+        display: block;
+    }
+
+    .social,
+    .header-nav {
+        display: none;
+    }
+
+    .sec5 p span {
+        color: #FFF;
+        font-family: Karla;
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 200;
+        line-height: normal;
+    }
+
+    .sec6-portf {
+        max-height: 10000px;
+    }
+
+    .sec6-portf h3 {
+        margin-top: 100px;
+        font-size: 32px;
+    }
+
+    .sec6-portf img {
+        width: 100%;
+    }
+
+    .sec6-info-block {
+        flex-direction: column;
+    }
+
+    .sec7-photo img {
+        max-width: 25vw;
+    }
+}
+
+@media (max-width: 1080px) {
+    .sec1 {
+        margin-bottom: 262px;
+    }
+
+    .sec1-background-image {
+        display: none;
+    }
+
+    .sec1-mobile-img {
+        display: block;
+        width: 100%;
+        margin-bottom: 118px;
+    }
+
+    .sec6 h2 {
+        font-size: 64px;
+    }
+
+    .woman,
+    .model {
+        display: none;
+    }
+
+    .sec2-images,
+    .models {
+        margin-top: 37px;
+        padding: 0 77px;
+        justify-content: center;
+    }
+
+    .woman.active,
+    .model.active {
+        display: block;
+        max-width: 925px;
+        width: 100%;
+    }
+
+    .woman.active img,
+    .model.active img {
+        width: 100%;
+    }
+
+    .profile-category-top,
+    .profile-category-bottom {
+        flex-wrap: wrap;
+        border: none;
+    }
+
+    .category {
+        width: 1000px;
+        border-top: 1px solid #000;
+        flex-direction: column;
+        align-items: start;
+        height: 211px;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .profile-img {
+        border-top: 1px solid #000;
+    }
+
+    .profile-mobile {
+        display: inline;
+        opacity: 0.6;
+    }
+
+    .profile-img-text {
+        gap: 20px;
+    }
+
+    .self-introduction {
+        height: 995px;
+        margin-bottom: 277px;
+    }
+
+    .sec7-links {
+        font-size: 24px;
+    }
+
+    .sec7-article {
+        font-size: 64px;
+    }
+
+    .sec7-subarticle {
+        font-size: 32px;
+    }
+
+    .sec5-info-block p {
+        font-size: 20px;
+    }
+    
+    .sec5-info-block .name {
+        font-size: 16px;
+    }
+    
+    .sec5 p span {
+        font-size: 40px;
+    }
+
+    .sec5 {
+        padding-top: 70.8px;
+        padding-bottom: 70.8px;
+    }
+
+    .sec5-info {
+        gap: auto;
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 550px) {
+    .sec7-links {
+        font-size: 16px;
+        gap: 40px;
+    }
+    .footer-up p {
+        display: none;
+    }
+    .footer-center {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+
+    .sec7-photo img:nth-child(3) {
+        display: none;
+    }
+
+    .sec7-photo img {
+        max-width: 10%;
+    }
+
+    .sec7-photo img:nth-child(2) {
+        max-width: 60%;
+    }
+
+    .sec7-photo {
+        width: 90%;
+        gap: 10px;
+    }
+
+    .footer-up img {
+        align-self: center;
+        width: 80%;
+    }
+
+    .logo,
+    .logo img {
+        width: 100%;
+    }
+
+    .button {
+        padding: 24px 30px;
+    }
+
+    h3 {
+        text-align: center;
+        margin-left: 0;
+        padding: 0 10px;
+    }
+
+    .men {
+        padding: 0 10px;
+    }
+
+    .sec1 {
+        margin-bottom: 50px;
+    }
+
+    .sec1-mobile-img {
+        margin-bottom: 50px;
+    }
+
+    .button {
+        margin-top: 50px;
+    }
+
+}
+
+@media (max-width: 380px) {
+    .sec7-links {
+        gap: 15px
+    }
+}
