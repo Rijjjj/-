@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Karla:ital,wght@0,200;0,300;0,400;0,700;0,800;1,500&display=swap');
 
 html {
-    overflow-x: hidden;
     box-sizing: border-box;
 }
 
@@ -583,7 +582,7 @@ h3 span {
 }
 
 .sec6-btn .btn {
-    width: 100px;
+    min-width: 100px;
     height: 100px;
     border-radius: 50%;
     border-style: solid;
@@ -728,6 +727,10 @@ footer .dark {
 @media (max-width: 1700px) {
     .form-inputs {
         display: block !important;
+    }
+
+    .form-input:nth-of-type(2n + 3)>label {
+        padding-left: 30px !important; 
     }
 }
 
