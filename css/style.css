@@ -583,7 +583,7 @@ h3 span {
 }
 
 .sec6-btn .btn {
-    min-width: 100px;
+    width: 100px;
     height: 100px;
     border-radius: 50%;
     border-style: solid;
@@ -728,10 +728,6 @@ footer .dark {
 @media (max-width: 1700px) {
     .form-inputs {
         display: block !important;
-    }
-
-    .form-input:nth-of-type(2n + 3)>label {
-        padding-left: 30px !important; 
     }
 }
 
@@ -898,4 +894,12 @@ footer .dark {
 
 .form-input:nth-of-type(3)>label span:first-of-type {
     min-width: 209px;
+}
+
+.er1{
+text-align: center;
+}
+.er2{
+text-align: center;
+margin-bottom: 20px;
 }
